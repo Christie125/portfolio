@@ -1,0 +1,28 @@
+.container {
+  overflow: hidden;
+  background-color: #2C3E50;
+  white-space: nowrap;
+}
+
+.loop-track {
+  display: inline-flex;
+  /* The width will be set by content, which is now doubled */
+  animation: scroll-left 13s linear infinite;
+}
+
+.loop-text {
+  font-size: clamp(1.2rem, 3vw, 2.5rem);
+  color: #E0F5EF;
+  font-family: 'Outfit', sans-serif;
+  padding: 0 1em;
+  white-space: nowrap;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
