@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap');
+
+
+.gmail {
+    scale: 0.9;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    max-width: 30px;
+
+}
+
+section{
+    color: #E0F5EF;
+    background-color: #2C3E50;
+    height: 10vh;
+    overflow: hidden;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 3%;
+    font-family: 'Outfit', sans-serif;
+}
