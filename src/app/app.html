@@ -1,29 +1,46 @@
-<app-test></app-test>
-<app-marquee></app-marquee>
+  <app-test></app-test>
+  <app-marquee></app-marquee>
 
-<app-achievement
-  acvtOne="I'm"
-  acvtTwo="part of"
-  acvtThree="clubs">
-</app-achievement>
-<div class="green-line"></div>
+  <section class="left-align">
+    <div class="achievement-row">
+      <app-achievement-content></app-achievement-content >
+      <app-achievement
+        acvtOne="I'm"
+        acvtTwo="part of"
+        acvtThree="clubs">
+      </app-achievement>
+    </div>
+  </section>
 
+  <div class="green-line"></div>
 
-<div class="centerline-wrapper">
-  <app-achievement
-    acvtOne="I"
-    acvtTwo="love to"
-    acvtThree="code">
-  </app-achievement>
-</div>
-<div class="green-line"></div>
+  <section class="right-align">
+    <div class="achievement-row">
+      <app-achievement-content></app-achievement-content>
+      <div class="centerline-wrapper">
+        <app-achievement
+          acvtOne="I"
+          acvtTwo="love to"
+          acvtThree="code">
+        </app-achievement>
+      </div>
+    </div>
+  </section>
 
-<app-achievement
-  acvtOne="I"
-  acvtTwo="get"
-  acvtThree="awards">
-</app-achievement>
-<div class="green-line"></div>
+  <div class="green-line"></div>
 
-<app-contact></app-contact>
-<app-footer></app-footer>
+  <section class="left-align">
+    <div class="achievement-row">
+      <app-achievement-content></app-achievement-content>
+      <app-achievement
+        acvtOne="I"
+        acvtTwo="get"
+        acvtThree="awards">
+      </app-achievement>
+    </div>
+  </section>
+
+  <div class="green-line"></div>
+
+  <app-contact></app-contact>
+  <app-footer></app-footer>

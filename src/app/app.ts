@@ -5,11 +5,12 @@ import { Achievement } from './achievement/achievement';
 import { Marquee } from './marquee/marquee';
 import { Contact } from './contact/contact'; 
 import { Footer } from './footer/footer'
+import { AchievementContent } from './achievement-content/achievement-content';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Test, Achievement, Marquee, Contact, Footer],
+  imports: [RouterOutlet, Test, Achievement, Marquee, Contact, Footer, AchievementContent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
