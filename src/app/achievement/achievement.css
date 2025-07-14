@@ -2,22 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Script:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 #header {
-    font-weight: normal;
-    background-color: #E0F5EF;
-    font-family: "Outfit", sans-serif;
-    padding-left: 4%;
-    padding-right: 2%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    color: #2C3E50;
-    font-size: 3rem;
-    line-height: 4rem;
-    justify-content: space-evenly;
-    justify-content: center;     /* vertically center */
-    margin: 0;
-    margin-bottom: 0 !important;
-
+  font-weight: normal;
+  background-color: #E0F5EF;
+  font-family: "Outfit", sans-serif;
+  padding: 2rem;
+  color: #2C3E50;
+  font-size: 4rem;
+  line-height: 6rem;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
+
 
 #acvtTwo {
     font-family: "League Script", cursive;
@@ -27,4 +28,12 @@
 #acvtOne, #acvtThree {
     font-weight: normal;
     margin: 0;
+}
+
+#acvtOne, #acvtTwo, #acvtThree {
+  width: 100%;         
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }

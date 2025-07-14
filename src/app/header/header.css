@@ -24,6 +24,7 @@ h1{
     font-weight: 700;
     margin: 0;
     padding: 0;
+    padding-right: 1.5%;
     z-index: 1000;
 }
 
@@ -39,6 +40,7 @@ h4 {
     font-weight: 300;
     font-size: 2rem;
     margin: 0;
+    padding-left: 0;
     padding-top: 1%;
     padding-bottom: 1%;
 }
@@ -46,7 +48,7 @@ h4 {
 div{
     display: flex;
     justify-content: center;
-    gap: 2%;
+    gap: 0.6%;
 }
 
 .circle-one {
@@ -71,4 +73,28 @@ div{
   background-color: #85B3AF;
   border-radius: 50%;
   transform: translate(400%, -250%);
+}
+
+.typewriter {
+  overflow: hidden; 
+  border-right: 0.25rem solid #2C3E50; /* The typwriter cursor */
+  white-space: nowrap;
+  margin: 0; 
+  letter-spacing: 0.05rem;
+  animation: 
+    typing 0.8s steps(7, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 10% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #2C3E50; 
+  }
 }

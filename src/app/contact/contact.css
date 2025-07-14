@@ -14,17 +14,20 @@ section{
 
 .contact-button {
     border-radius: 8px;
-    padding: 2%;
-    height: 10vh;
     background-color: #2C3E50;
     color: #E0F5EF;
     text-decoration: none;
     font-weight: 500;
-    width: 30px !important;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    padding: 2%;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 h2 {
-    padding-bottom: 2%;
+    padding-bottom: 1.5%;
     font-weight: 700;
 }

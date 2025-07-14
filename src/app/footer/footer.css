@@ -9,7 +9,12 @@ img {
     margin: 0;
     padding: 0;
     max-width: 30px;
+}
 
+
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
 
 section{

@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class Test {
   title = "Christie"
-  subtitle = "A passionate..."
+  subtitle = "A passionate"
   titleTwo = "Berenshteyn"
   subtitleTwo = "student"
 }
