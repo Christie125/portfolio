@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './achievement-content.css'
 })
 export class AchievementContent {
-
+  
 }

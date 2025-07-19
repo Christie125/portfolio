@@ -1,0 +1,6 @@
+.circle {
+   border: solid 1px #2C3E50;
+   border-radius: 50%;
+   width: 5rem;
+height: 5rem;
+}
