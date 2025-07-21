@@ -6,11 +6,12 @@ import { Marquee } from './marquee/marquee';
 import { Contact } from './contact/contact'; 
 import { Footer } from './footer/footer'
 import { AchievementContent } from './achievement-content/achievement-content';
+import { ContentCircle } from './content-circle/content-circle';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Test, Achievement, Marquee, Contact, Footer, AchievementContent],
+  imports: [RouterOutlet, Test, Achievement, Marquee, Contact, Footer, AchievementContent, ContentCircle],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

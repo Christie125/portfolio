@@ -5,7 +5,6 @@ h1 {
 body{
     padding: 0;
     margin: 0 !important;
-    background-color: #E0F5EF;
 }
 
 .green-line {
@@ -15,8 +14,9 @@ body{
   width: 100%;
   height: 0.3rem;
   background-color: #2C3E50;
-  margin: 0;
+  margin: 0 !important;
   padding: 0;
+  margin-bottom: 0 !important;
 }
 
 section {
@@ -82,6 +82,7 @@ app-achievement-content div
   line-height: 1.2;
   border-radius: 8px;
   align-items: center;
+  margin: auto;
 }
 
 app-achievement-content div a {
@@ -92,6 +93,18 @@ app-achievement-content div:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
+#code {
+  margin: 0 !important;
+  text-align: center;
+  align-items: center;
+  background-color: #8fb3af;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.15rem 0; /* Optional: consistent padding */
+}
+
+
 #awards {
   align-items: center;
   margin: auto;
@@ -100,4 +113,19 @@ app-achievement-content div:hover {
 a:hover {
   color: #8fb3af !important;
 
+}
+
+#circle {
+  text-align: center;
+  z-index: 1000;
+}
+
+.big-circle {
+  width: 10rem;
+  height: 10rem;
+}
+
+.small-circle {
+  width: 6.4rem;
+  height: 6.4rem;
 }

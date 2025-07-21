@@ -4,6 +4,7 @@
   <section class="left-align">
     <div class="achievement-row">
       <app-achievement-content>
+        
         <p>I'm part of a large number of clubs at my high school, Glendowie College.</p>
         <p>I'm also currently in the proccess of starting my own coding club, partnering with <a href="hackclub.com">Hack Club.</a></p>
         <a href="/clubs">To find out more, click here.</a>
@@ -20,10 +21,13 @@
 
   <section class="right-align">
     <div class="achievement-row">
-      <app-achievement-content>
-        <p>I love to code, especially web projects.</p>
-        <p>I have no projects currently shipped, but <a href="https://github.com/christie125">to check out my Github, click here</a></p>
-        <a href="/code">To find out more about my skils and projects, click here.</a>
+      <app-achievement-content id="code">
+        <app-content-circle id="circle" class="big-circle red-bg">
+            <p>I have no projects currently shipped, but <a href="https://github.com/christie125">check out my Github here </a></p>
+        </app-content-circle>
+        <app-content-circle id="circle" class="small-circle blue-bg">
+          <a href="/code">To find out more about my skils and projects, click here.</a>
+        </app-content-circle>
       </app-achievement-content>
         <app-achievement
           acvtOne="I"
