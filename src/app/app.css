@@ -104,6 +104,10 @@ app-achievement-content div:hover {
   padding: 0.15rem 0; /* Optional: consistent padding */
 }
 
+#code a {
+  color: #2C3E50;;
+}
+
 
 #awards {
   align-items: center;
