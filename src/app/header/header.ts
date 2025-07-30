@@ -4,11 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-test',
   imports: [],
   templateUrl: './header.html',
-  styleUrl: './header.css'
+  styleUrl: './header.css',
+  inputs: ['title', 'subtitle', 'titleTwo', 'subtitleTwo']
 })
-export class Test {
-  title = "Christie"
-  subtitle = "A passionate"
-  titleTwo = "Berenshteyn"
-  subtitleTwo = "student"
+export class Header {
+  title: string = "Christie";
+  subtitle: string = "A passionate";
+  titleTwo: string = "Berenshteyn";
+  subtitleTwo: string = "student";
 }

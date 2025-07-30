@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Test } from '../header/header';
+import { Header } from '../header/header';
 import { Achievement } from '../achievement/achievement';
 import { Marquee } from '../marquee/marquee';
 import { Contact } from '../contact/contact';
@@ -13,7 +13,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   selector: 'app-clubs-page',
   standalone: true,
   imports: [
-    Test,
+    Header,
     Achievement,
     Marquee,
     Contact,
