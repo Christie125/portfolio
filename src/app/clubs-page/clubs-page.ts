@@ -7,6 +7,7 @@ import { Footer } from '../footer/footer';
 import { AchievementContent } from '../achievement-content/achievement-content';
 import { ContentCircle } from '../content-circle/content-circle';
 import { RouterLink, RouterOutlet } from '@angular/router';
+import { NavBar } from '../nav-bar/nav-bar';
 
 
 @Component({
@@ -21,7 +22,8 @@ import { RouterLink, RouterOutlet } from '@angular/router';
     AchievementContent,
     ContentCircle,
     RouterOutlet,
-    RouterLink
+    RouterLink,
+    NavBar
   ],
   templateUrl: './clubs-page.html',
   styleUrl: './clubs-page.css'

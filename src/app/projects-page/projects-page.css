@@ -9,13 +9,16 @@
 
 app-content-circle {
     font-size: 0.8rem !important;
-    width: 15rem;
-    height: 15rem;
+    width: 16rem;
+    height: 16rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 2rem auto;
+    margin: auto;
+    flex-direction: column;
+    z-index: 10;
 }
+
 
 app-content-circle:hover {
     transform: scale(1.03);
@@ -28,8 +31,24 @@ app-content-circle:hover {
     margin-right: 5%;
 }
 
-#grove #grove-content {
+#content {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    width: 85%
+}
+
+.line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 80%;
+    background-color: #E0F5EF;
+    width: 95%;
+    height: 0.5rem;
+    margin: 0;
+    z-index: 1;
 }
