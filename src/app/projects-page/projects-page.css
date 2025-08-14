@@ -29,6 +29,8 @@ app-content-circle:hover {
     margin: 5%;
     margin-left: 7%;
     margin-right: 5%;
+    line-height: 1.25;
+
 }
 
 #content {
@@ -38,14 +40,16 @@ app-content-circle:hover {
     align-items: center;
     align-content: center;
     margin: auto;
-    width: 85%
+    width: 85%;
+    line-height: 1.25;
+
 }
 
 .line {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: 80%;
+    top: 83%;
     background-color: #E0F5EF;
     width: 95%;
     height: 0.5rem;

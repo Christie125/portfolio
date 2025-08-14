@@ -5,6 +5,7 @@ h1 {
 body {
     padding: 0;
     margin: 0 !important;
+
 }
 
 .green-line {
@@ -52,6 +53,8 @@ section {
     padding: 0;
     margin: 0;
     justify-content: stretch;
+    line-height: 1.5;
+
 }
 
 .achievement-row app-achievement {
@@ -72,6 +75,8 @@ section {
 app-achievement-content div p {
     margin: 0;
     padding: auto;
+    line-height: 1.5;
+
 }
 
 app-achievement-content div {
@@ -82,6 +87,8 @@ app-achievement-content div {
     border-radius: 8px;
     align-items: center;
     margin: auto;
+    line-height: 1.5;
+
 }
 
 app-achievement-content div a {
@@ -101,7 +108,8 @@ app-achievement-content div:hover {
     flex-direction: column;
     justify-content: center;
     padding: 0.15rem 0;
-    /* Optional: consistent padding */
+    line-height: 1.5;
+
 }
 
 #code a {
@@ -113,6 +121,8 @@ app-achievement-content div:hover {
 #awards {
     align-items: center;
     margin: auto;
+    line-height: 1.5;
+
 }
 
 a:hover {
@@ -123,14 +133,20 @@ a:hover {
 #circle {
     text-align: center;
     z-index: 1000;
+    line-height: 1.5;
+
 }
 
 .big-circle {
     width: 10rem;
     height: 10rem;
+    line-height: 1.5;
+
 }
 
 .small-circle {
     width: 6.4rem;
     height: 6.4rem;
+    line-height: 1.5;
+
 }

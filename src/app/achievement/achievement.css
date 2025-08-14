@@ -7,7 +7,8 @@
   font-family: "Outfit", sans-serif;
   padding: 2rem;
   color: #2C3E50;
-  font-size: 4rem;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.4rem + 3vw, 4rem) !important;
   line-height: 6rem;
   margin: 0;
   height: 100%;
@@ -21,17 +22,21 @@
 
 
 #acvtTwo {
-    font-family: "League Script", cursive;
-    margin: 0;
+  font-family: "League Script", cursive;
+  margin: 0;
 }
 
-#acvtOne, #acvtThree {
-    font-weight: normal;
-    margin: 0;
+#acvtOne,
+#acvtThree {
+  font-weight: normal;
+  margin: 0;
+  font-size: clamp(1rem, 0.4rem + 3vw, 4rem) !important;
 }
 
-#acvtOne, #acvtTwo, #acvtThree {
-  width: 100%;         
+#acvtOne,
+#acvtTwo,
+#acvtThree {
+  width: 100%;
   text-align: left;
   margin: 0;
   padding: 0;

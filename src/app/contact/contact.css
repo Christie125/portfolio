@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&display=swap');
 
 
-section{
+section {
     text-align: center;
     padding: 5%;
     padding-top: 1%;
@@ -9,7 +9,8 @@ section{
     font-family: "Outfit", sans-serif;
     background-color: #E0F5EF;
     color: #2C3E50;
-    font-size: 2rem;
+    font-size: 1rem;
+    font-size: clamp(1rem, 1rem + 1vw, 2rem);
 }
 
 .contact-button {
@@ -18,7 +19,8 @@ section{
     color: #E0F5EF;
     text-decoration: none;
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1rem;
+    font-size: clamp(1rem, 0.8rem + 1vw, 1.7rem);
     padding: 2%;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
