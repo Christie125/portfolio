@@ -19,8 +19,8 @@ h1 {
   font-family: 'Outfit', sans-serif;
   color: #2C3E50;
   margin-bottom: 20px;
-  font-size: 2.5rem;
-  font-size: clamp(2.5rem, 2rem + 2.5vw, 5rem);
+  font-size: 2rem;
+  font-size: clamp(2rem, 1.4rem + 3vw, 5rem);
   text-align: center;
   font-weight: 700;
   margin: 0;
@@ -32,8 +32,8 @@ h1 {
 #titleTwo {
   font-family: 'League Script', cursive;
   transform: translate(0, 0.8rem);
-  font-size: 2.5rem;
-  font-size: clamp(2.5rem, 2rem + 2.5vw, 5rem);
+  font-size: 2rem;
+  font-size: clamp(2rem, 1.4rem + 3vw, 5rem);
   z-index: 10000;
 }
 
@@ -119,4 +119,21 @@ div {
   50% {
     border-color: #2C3E50;
   }
+}
+
+
+@media screen and (max-width: 768px) {
+  section {
+    height: 20vh;
+  }
+
+  h4 {
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  #titleTwo {
+    transform: translate(0, 0.5rem);
+  }
+
 }
