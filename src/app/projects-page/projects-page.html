@@ -1,30 +1,35 @@
-<app-nav-bar></app-nav-bar>
-<app-test title="My Coding" titleTwo="Projects" subtitleTwo="proud of" subtitle="Cool projects I'm"></app-test>
-<main>
-    <div class="content">
-        <app-content-circle id="grove">
-            <div id="content">
+<nav>
+    <a href="#main" class="skip">Skip to main content</a>
+    <app-nav-bar></app-nav-bar>
+</nav>
+<header>
+    <app-test title="My Coding" titleTwo="Projects" subtitleTwo="proud of" subtitle="Cool projects I'm"></app-test>
+</header>
+<main id="main">
+    <div class="content" aria-label="Christie's coding projects">
+        <app-content-circle id="grove" role="article">
+            <div id="content" aria-label="Node, Express, and Postgres">
                 <p>I can use Node JS, Express, and can intergrate Postgres through pool queries.</p>
                 <p>For an example, check out <a href="https://github.com/Christie125/Grove-Athena-Project-1">Grove,</a>
                     a
                     habit tracker with points and a leaderboard, which uses these technologies. </p>
             </div>
         </app-content-circle>
-        <app-content-circle>
-            <div id="content">
+        <app-content-circle role="article">
+            <div id="content" aria-label="Chrome extensions">
                 <p>I can create Chrome extensions that save things to the user's local storage.</p>
                 <p>For an example, check out <a href="https://github.com/Christie125/Turtle-Timer">Turtle Timer,</a>
                     a timer which allows for looping and uses these technologies. </p>
             </div>
         </app-content-circle>
-        <app-content-circle>
-            <div id="content">
+        <app-content-circle role="article">
+            <div id="content" aria-label="Angular">
                 <p>I am able to use Angualar to create static websites.</p>
                 <p>For an example, look around the website you're currently on!</p>
             </div>
         </app-content-circle>
-        <app-content-circle>
-            <div id="content">
+        <app-content-circle role="article">
+            <div id="content" aria-label="Flask and APIs">
                 <p>I can use Flask and external APIs to websites.</p>
                 <p>For an example, check out <a href="https://github.com/Christie125/Quote-Generator">this quote
                         generator,</a> which uses these technologies. </p>
@@ -32,5 +37,9 @@
         </app-content-circle>
     </div>
 </main>
-<app-contact></app-contact>
-<app-footer></app-footer>
+<section aria-label="Contact Christie">
+    <app-contact></app-contact>
+</section>
+<footer>
+    <app-footer></app-footer>
+</footer>

@@ -1,70 +1,83 @@
-<app-nav-bar></app-nav-bar>
-<app-test></app-test>
-<app-marquee></app-marquee>
+<nav>
+    <a href="#main" class="skip">Skip to main content</a>
 
-<section class="left-align">
-    <div class="achievement-row">
-        <app-achievement-content id="awards">
-            <div>
-                <p>I'm part of a large number of clubs at my high school, Glendowie College.</p>
-                <br>
-                <p>Through my participation in them, I've developed various skills such as leadership, organisation, and
-                    time management.</p>
-                <br>
-                <p>I'm also currently in the proccess of starting my own coding club, partnering with <a
-                        href="hackclub.com">Hack Club.</a></p>
-                <br>
-                <p>Through it, I hope to connect likeminded people, and further my leadership skills.</p>
-                <br>
-                <a routerLink="/clubs">To find out more, click here.</a>
-            </div>
-        </app-achievement-content>
-        <app-achievement acvtOne="I'm" acvtTwo="part of" acvtThree="clubs">
-        </app-achievement>
-    </div>
+    <app-nav-bar></app-nav-bar>
+</nav>
+<header>
+    <app-test></app-test>
+</header>
+<section aria-label="A running list of adjectives about Christie">
+    <app-marquee></app-marquee>
 </section>
+<main id="main">
+    <section class="left-align">
+        <div class="achievement-row">
+            <app-achievement-content id="awards" aria-label="Christie's clubs">
+                <div>
+                    <p>I'm part of a large number of clubs at my high school, Glendowie College.</p>
+                    <br>
+                    <p>Through my participation in them, I've developed various skills such as leadership, organisation,
+                        and
+                        time management.</p>
+                    <br>
+                    <p>I'm also currently in the proccess of starting my own coding club, partnering with <a
+                            href="hackclub.com">Hack Club.</a></p>
+                    <br>
+                    <p>Through it, I hope to connect likeminded people, and further my leadership skills.</p>
+                    <br>
+                    <a routerLink="/clubs">To find out more, click here.</a>
+                </div>
+            </app-achievement-content>
+            <app-achievement acvtOne="I'm" acvtTwo="part of" acvtThree="clubs">
+            </app-achievement>
+        </div>
+    </section>
 
-<div class="green-line"></div>
+    <div class="green-line" aria-hidden="true"></div>
 
-<section class="right-align">
-    <div class="achievement-row">
-        <app-achievement-content id="code">
-            <app-content-circle id="circle" class="big-circle red-bg">
-                <p class="circle-content">If you like, <a href="https://github.com/christie125">check out my
-                        Github here </a> to find examples of my work.</p>
-            </app-content-circle>
-            <app-content-circle id="circle" class="small-circle blue-bg">
-                <a class="circle-content" routerLink="/projects">To find out more about my skils and projects, click
-                    here.</a>
-            </app-content-circle>
-        </app-achievement-content>
-        <app-achievement acvtOne="I" acvtTwo="love to" acvtThree="code">
-        </app-achievement>
-    </div>
+    <section class="right-align">
+        <div class="achievement-row">
+            <app-achievement-content id="code" aria-label="Christie's coding">
+                <app-content-circle id="circle" class="big-circle red-bg">
+                    <p class="circle-content">If you like, <a href="https://github.com/christie125">check out my
+                            Github here </a> to find examples of my work.</p>
+                </app-content-circle>
+                <app-content-circle id="circle" class="small-circle blue-bg">
+                    <a class="circle-content" routerLink="/projects">To find out more about my skils and projects, click
+                        here.</a>
+                </app-content-circle>
+            </app-achievement-content>
+            <app-achievement acvtOne="I" acvtTwo="love to" acvtThree="code">
+            </app-achievement>
+        </div>
+    </section>
+
+    <div class="green-line" aria-hidden="true"></div>
+
+    <section class="left-align">
+        <div class="achievement-row">
+            <app-achievement-content id="awards" aria-label="Christie's awards">
+                <div class="shs" aria-label="Christie's primary school awards">
+                    <p>I achieved an abundance of awards at my primary school - St. Heliers School.</p>
+                    <a routerLink="/awards">Find out more.</a>
+                </div>
+                <br>
+                <div class="gdc" aria-label="Christie's high school awards">
+                    <p>I am currently in my second year of high school at Glendowie College.</p>
+                    <p>I have achieved numerous awards at GDC.</p>
+                    <a routerLink="/awards">Find out more.</a>
+                </div>
+            </app-achievement-content>
+            <app-achievement acvtOne="I" acvtTwo="get" acvtThree="awards">
+            </app-achievement>
+        </div>
+    </section>
+</main>
+<div class="green-line" aria-hidden="true"></div>
+
+<section aria-label="Contact Christie">
+    <app-contact></app-contact>
 </section>
-
-<div class="green-line"></div>
-
-<section class="left-align">
-    <div class="achievement-row">
-        <app-achievement-content id="awards">
-            <div class="shs">
-                <p>I achieved an abundance of awards at my primary school - St. Heliers School.</p>
-                <a routerLink="/awards">Find out more.</a>
-            </div>
-            <br>
-            <div class="gdc">
-                <p>I am currently in my second year of high school at Glendowie College.</p>
-                <p>I have achieved numerous awards at GDC.</p>
-                <a routerLink="/awards">Find out more.</a>
-            </div>
-        </app-achievement-content>
-        <app-achievement acvtOne="I" acvtTwo="get" acvtThree="awards">
-        </app-achievement>
-    </div>
-</section>
-
-<div class="green-line"></div>
-
-<app-contact></app-contact>
-<app-footer></app-footer>
+<footer>
+    <app-footer></app-footer>
+</footer>

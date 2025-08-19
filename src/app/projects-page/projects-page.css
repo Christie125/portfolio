@@ -64,3 +64,23 @@ app-content-circle:hover {
     }
 
 }
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    font-family: "Outfit", sans-serif;
+    color: #2C3E50;
+    background-color: #E0F5EF;
+    padding: 0.5rem;
+    width: 15%;
+}
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+}
