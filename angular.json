@@ -92,7 +92,7 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "repo": "https://github.com/christie125/portfolio.git",
-            "branch": "gh-pages",
+            "branch": "gh-pages-real",
             "dir": "dist/portfolio"
           }
         }
