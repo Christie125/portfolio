@@ -1,59 +1,19 @@
-# Portfolio
+This project is my personal website.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.3.
+It is a static website that allows a user to learn more about me :)
 
-## Development server
+It has pages talking about my clubs at school, awards, and coding projects.
 
-To start a local development server, run:
+After my mother suggested that I learn Angular (she codes as well), I thought it would be a good idea to create a personal website to have a practical hands-on way to learn -- when it comes to coding, I'm a very learn-by-doing kind of person.
+A personal website would allow be to a) to have my own place on the Internet b) have something to show with the skills and c) would allow me to focus on purely frontend, unlike my other projects. 
 
-```bash
-ng serve
-```
+I would also be able to put into practise the UX and UI skills I had been practising on Figma (another little hobby of mine). This included accessibility (skip links etc.) and responisve design (scaling to different screen sizes).
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+I made this project by doing small steps every day, even if the small step was just formatting a button. Doing this helped me stay motivated, as it did not take a lot of mental energy to work on it. Ultimately, this helped me finish my website in a timely manner and keep me from being burnt out or otherwise discouraged from coding. 
 
-## Code scaffolding
+This project came with a big learning curve, as I learnt how to use Angular. 
+This meant that is was quite challenging at the beginning to start and to get how everything works. However, I learnt to use online resources efficiently and effectively to find answers to my questions and learn how to do new things. 
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Overall, making my own personal website was a very rewarding and interesting learning experience. I'm very proud of the results!
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme
