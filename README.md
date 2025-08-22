@@ -12,3 +12,5 @@ My website also came with a big learning curve since I was learning how to use A
 This meant that is was quite challenging at the beginning to get how everything works. However, I learnt to use online resources efficiently and effectively to find answers to my questions and learn how to do new things, which built up my confindence and accelerated my progress. 
 
 Overall, making my own personal website was a very rewarding and interesting learning experience. I'm very proud of the results!
+
+https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge 
