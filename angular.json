@@ -93,7 +93,7 @@
           "options": {
             "repo": "https://github.com/christie125/portfolio.git",
             "branch": "gh-pages-actual",
-            "dir": "dist/portfolio"
+            "dir": "dist/portfolio/browser"
           }
         }
       }

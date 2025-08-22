@@ -7,7 +7,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "build": "ng build --base-href /portfolio/",
-    "deploy": "ng deploy"
+    "deploy": "ng deploy --dir=dist/portfolio/browser"
   },
   "private": true,
   "dependencies": {
