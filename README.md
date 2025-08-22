@@ -4,7 +4,7 @@ It is a static website that allows a user to learn more about me :)
 
 It has pages talking about my clubs at school, awards, and coding projects.
 
-After my mother suggested that I learn Angualr (she codes as well), I thought it would be a good idea to create a personal website to have a practical hands-on way to learn -- when it comes to coding, I'm a very learn-by-doing kind of person.
+After my mother suggested that I learn Angular (she codes as well), I thought it would be a good idea to create a personal website to have a practical hands-on way to learn -- when it comes to coding, I'm a very learn-by-doing kind of person.
 A personal website would allow be to a) to have my own place on the Internet b) have something to show with the skills and c) would allow me to focus on purely frontend, unlike my other projects. 
 
 I would also be able to put into practise the UX and UI skills I had been practising on Figma (another little hobby of mine). This included accessibility (skip links etc.) and responisve design (scaling to different screen sizes).
